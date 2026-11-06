@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  packageNames: usluga dostaje zdarzenia TYLKO z aplikacji YouTube,
+  wiec gdy YouTube jest zamkniety, nic sie nie dzieje (zero zuzycia baterii).
+  notificationTimeout: system laczy zdarzenia i przekazuje je najwyzej co 250 ms.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/service_description"
+    android:packageNames="com.google.android.youtube"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="250" />

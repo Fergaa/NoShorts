@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoShorts</string>
+    <string name="service_description">Wykrywa odtwarzacz Shorts w aplikacji YouTube i automatycznie wraca do poprzedniego ekranu. Działa tylko w aplikacji YouTube i nie wysyła żadnych danych.</string>
+</resources>
